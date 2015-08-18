@@ -1,22 +1,25 @@
 <div class="container-fluid">
-  {{#newsItems}}
+  {{#entries}}
     <div class="row" style="margin-bottom:20px;">
         <div class="col-sm-3">
           <h2>{{title}}</h2>
-          <span>{{description}}</span>
+          <span>{{{contentSnippet}}}</span>
         </div>
         <div class="col-sm-6">
-         <p>{{description}}</p>
-        <img src="{{image}}" width="100%"> </img>
+         <!-- p>{{{content}}}</p -->
+        {{#mediaGroups}}
+          {{#contents}}
+            <img src="{{url}}" width="100%"> </img>
+          {{/contents}}
+        {{/mediaGroups}}
         </div>
-        <div class="col-sm-3">
+        <!--div class="col-sm-3">
           {{#rSide}}
             <h3>{{rTitle}}</h3>
             <img src="{{rImage}}" width="100%"> </img>
             <a href="#">{{rDescription}}</a>
           {{/rSide}}
-        </div>
+        </div -->
     </div>
-  {{/newsItems}}
-
-</div>   
+  {{/entries}}
+</div>
