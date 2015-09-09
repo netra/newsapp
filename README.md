@@ -5,7 +5,7 @@
 - Currently supports Server Side Rendering
 
 ## Architecture
-![ScreenShot](http://www.websequencediagrams.com/cgi-bin/cdraw?lz=dGl0bGUgRS1Db21tZXJjZSBXZWIgQXBwCgoKQ2xpZW50LT5Ob2RlSlM6IFJlcXVlc3QKbm90ZSByaWdodCBvZiAAIAY6IFVzZXIgcgAcBwAtBi0-TW9uZ29EQjogSW52ZW50b3J5IERhdGEAQgkAGQcAWgoAFxFzcG9uc2UASAkAZghIVE1MABUJIHdpdGgAVAUAgQUXU2VydmVyLVNpZGUgUmVuZGVyaW5nCgo&s=magazine)
+![ScreenShot](http://www.websequencediagrams.com/cgi-bin/cdraw?lz=dGl0bGUgTmV3cyBXZWIgQXBwCgoKQ2xpZW50LT5Ob2RlSlM6IFJlcXVlc3QKbm90ZSByaWdodCBvZiAAIAY6IFVzZXIgcgAcBwAtBi0-WWFob29BUEk6AFYGQ29udGVudCBEYXRhAEYJABwIAF8KAB8NUmVzcG9uc2UASwkAaQhIVE1MABUJIHdpdGgAUwUAgQgXU2VydmVyLVNpZGUgUmVuZGVyaW5nCgo&s=earth)
 
 ## Desktop News App View
 ![ScreenShot](https://github.com/netra/newsapp/blob/master/public/images/newsapp-desktop.png)
